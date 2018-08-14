@@ -1,0 +1,16 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+
+repositories {
+    mavenCentral()
+    maven { url "http://developer.marklogic.com/maven2" }
+}
+
+dependencies {
+    compile group: 'com.marklogic', name: 'mlcp', version: '${mlVersion}'
+}
+
+task buildLibDir( type: Copy ) {
+    into "$projectDir/lib"
+    from configurations.runtime
+}
