@@ -17,3 +17,4 @@ props.mlDatabaseImport = ask("MarkLogic database to import to [${props.mlDatabas
 processTemplates "build.gradle", props
 processTemplates "import_archive.sh", props
 processTemplates "export_archive.sh", props
+processTemplates "copy.sh", props
