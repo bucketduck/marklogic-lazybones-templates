@@ -1,6 +1,6 @@
 def props = [:]
 props.projectDir = projectDir
-props.mlVersion = ask("MarkLogic version [9.0.6]: ", "9.0.6", "mlVersion")
+props.mlVersion = ask("MarkLogic version [9.0.9]: ", "9.0.9", "mlVersion")
 
 props.mlHost = ask("MarkLogic host to export from [localhost]: ", "localhost", "mlHost")
 props.mlUser = ask("MarkLogic user to export from [admin]: ", "admin", "mlUser")

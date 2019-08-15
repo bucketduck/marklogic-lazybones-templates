@@ -9,7 +9,6 @@ mlcp.sh import -mode local -batch_size 100 -thread_count 4 \
    -copy_collections true \
    -copy_properties true \
    -copy_quality true \
-   -copy_metadata true \
    -host ${mlHostImport} \
    -port ${mlPortImport} \
    -username ${mlUserImport} -password ${mlPasswordImport} \

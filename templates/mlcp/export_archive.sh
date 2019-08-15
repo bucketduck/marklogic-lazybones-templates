@@ -8,7 +8,6 @@ mlcp.sh export -mode local -batch_size 100 -thread_count 4 \
    -copy_collections true \
    -copy_properties true \
    -copy_quality true \
-   -copy_metadata true \
    -host ${mlHost} \
    -port ${mlPort} \
    -username ${mlUser} -password ${mlPassword} \

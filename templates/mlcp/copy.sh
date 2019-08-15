@@ -6,7 +6,6 @@ mlcp.sh copy -mode local -batch_size 100 -thread_count 4 \
    -copy_collections true \
    -copy_properties true \
    -copy_quality true \
-   -copy_metadata true \
    -input_host ${mlHost} \
    -input_port ${mlPort} \
    -input_username ${mlUser} -input_password ${mlPassword} \
